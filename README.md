@@ -1,5 +1,5 @@
 # Jupyter-arcpy
-Setting Up Jupyter notebooks for ArcGIS
+Setting Up Jupyter notebooks for ArcGIS 10.X with a 64bit installation
 
 **1: Download and install ANACONDA [(Select 2.7 python and 64 bit for ML installation)](https://www.anaconda.com/download/#windows)**
 
@@ -32,7 +32,7 @@ create a arcpy.pth file in the environment site-package folder: “C:\ProgramDat
 Open the .pth file and add the following lines:
 ```
 # .pth file for arcpy
-C:\Program Files (x86)\ArcGIS\Desktop10.X\bin 
+C:\Program Files (x86)\ArcGIS\Desktop10.X\bin64 
 C:\Program Files (x86)\ArcGIS\Desktop10.X\arcpy
 C:\Program Files (x86)\ArcGIS\Desktop10.X\Scripts
 ```
@@ -40,7 +40,7 @@ C:\Program Files (x86)\ArcGIS\Desktop10.X\Scripts
 NOTE: eplace “X” in the path with the ArcGIS version installed on your computer and save the file
 
 **5: Link a IPython kernel to the arcpy environment**
-add kernel to environemnt
+add kernel to environment
 ```
 python -m ipykernel install --name arcpy --display-name "Python (arcpy)"
 ```
