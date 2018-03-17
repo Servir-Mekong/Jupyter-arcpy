@@ -1,9 +1,6 @@
 # Jupyter-arcpy
 Setting Up Jupyter notebooks for ArcGIS
 
-# Jupyter-gee
-Install GEE Jupyter Notebook
-
 **1: Download and install ANACONDA [(Select 2.7 python and 64 bit for ML installation)](https://www.anaconda.com/download/#windows)**
 
 NOTE: DO NOT CHECK ANYHTING UNDER THE ADVANCED OPTIONS TAB DURING INSTALL (This will destroy your ArcGIS Installation)
