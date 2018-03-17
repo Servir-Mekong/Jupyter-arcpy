@@ -17,6 +17,11 @@ conda config --prepend channels conda-forge
 //START HERE IF YOU HAVE ANACONDA INSTALLED
 
 **3: Create ArcPy environment and install dependencies**
+Check to see if you have an arcpy setup already
+```
+conda info --envs
+```
+Setup ArcPy Environment
 ```
 conda create -n arcpy python=2.7
 conda activate arcpy
