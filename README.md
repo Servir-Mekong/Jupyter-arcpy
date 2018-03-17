@@ -40,6 +40,7 @@ C:\Program Files (x86)\ArcGIS\Desktop10.X\Scripts
 NOTE: eplace “X” in the path with the ArcGIS version installed on your computer and save the file
 
 **5: Link a IPython kernel to the arcpy environment**
+
 add kernel to environment
 ```
 python -m ipykernel install --name arcpy --display-name "Python (arcpy)"
